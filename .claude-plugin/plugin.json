@@ -1,0 +1,19 @@
+{
+  "name": "ai-audit",
+  "version": "1.0.0",
+  "description": "Detect and report AI fingerprints / slop in your projects. Scans copy tells, design patterns, and code habits that AI models default to.",
+  "author": {
+    "name": "Ajeesh",
+    "url": "https://github.com/Ajeesh25353646"
+  },
+  "homepage": "https://github.com/Ajeesh25353646/claude-skills",
+  "repository": "https://github.com/Ajeesh25353646/claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "ai-detection",
+    "ai-slop",
+    "code-quality",
+    "developer-tools",
+    "claude-code"
+  ]
+}

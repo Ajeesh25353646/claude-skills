@@ -1,5 +1,6 @@
-# Private settings
+# Private settings (but keep .claude-plugin/ for marketplace registration)
 .claude/
+!.claude-plugin/
 .qwen/
 
 # Other skills (not yet published)

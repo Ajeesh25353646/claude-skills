@@ -1,0 +1,24 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "Ajeesh",
+    "url": "https://github.com/Ajeesh25353646"
+  },
+  "metadata": {
+    "description": "A personal collection of Claude Code skills, published publicly one by one."
+  },
+  "plugins": [
+    {
+      "name": "ai-audit",
+      "description": "Detect and report AI fingerprints / slop in your projects. Scans copy tells, design patterns, and code habits that AI models default to.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ajeesh",
+        "url": "https://github.com/Ajeesh25353646"
+      },
+      "source": "./",
+      "category": "developer-tools",
+      "homepage": "https://github.com/Ajeesh25353646/claude-skills"
+    }
+  ]
+}

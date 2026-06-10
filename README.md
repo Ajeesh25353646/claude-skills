@@ -14,16 +14,29 @@ A growing collection of [Claude Code](https://claude.codes/) skills I've built a
 
 ## Installing a Skill
 
-Clone the repo, then symlink a skill into your Claude Code skills directory:
+### Via Claude Code Plugin Marketplace (recommended)
+
+In a Claude Code session, run:
+
+```
+/plugin marketplace add Ajeesh25353646/claude-skills
+/plugin install ai-audit@claude-skills
+```
+
+This gives you auto-updates. Skills are namespaced as `/ai-audit:ai-audit`.
+
+### Manual (symlink)
+
+Clone the repo, then symlink the skill:
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
+git clone https://github.com/Ajeesh25353646/claude-skills.git
 
 # Symlink a skill
 ln -sf $(pwd)/claude-skills/ai-audit ~/.claude/skills/ai-audit
 ```
 
-Once symlinked, invoke the skill by name via `/ai-audit` across any Claude Code session.
+Once symlinked, invoke it as `/ai-audit` across any Claude Code session.
 
 ## License
 
