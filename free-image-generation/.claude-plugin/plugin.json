@@ -1,0 +1,23 @@
+{
+  "name": "free-image-generation",
+  "version": "1.0.0",
+  "description": "Generate images for free using multiple AI providers. Supports Cloudflare Workers AI, HuggingFace Inference, and Pollinations.ai with tiered fallback. No API keys required for basic use.",
+  "author": {
+    "name": "Ajeesh",
+    "url": "https://github.com/Ajeesh25353646"
+  },
+  "homepage": "https://github.com/Ajeesh25353646/claude-skills",
+  "repository": "https://github.com/Ajeesh25353646/claude-skills",
+  "license": "MIT",
+  "keywords": [
+    "image-generation",
+    "text-to-image",
+    "ai-art",
+    "free-api",
+    "stable-diffusion",
+    "flux",
+    "huggingface",
+    "cloudflare",
+    "pollinations"
+  ]
+}
