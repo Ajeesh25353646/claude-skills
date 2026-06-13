@@ -3,6 +3,10 @@
 !.claude-plugin/
 .qwen/
 
+# Environment / credentials — don't commit API keys
+.env
+.env.*
+
 # Other skills (not yet published)
 ai-portfolio-grader/
 activity-to-career-mapper/
